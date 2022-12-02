@@ -1,3 +1,3 @@
 ### Calculadora de Notas
 
-Projeto destinado para estudantes do brasil conseguirem realizar calculos de suas notas com facilidade.
+<P align="center">Projeto destinado para estudantes do brasil conseguirem realizar calculos de suas notas com facilidade.</p>
