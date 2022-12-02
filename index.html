@@ -16,23 +16,39 @@
 			<div class="sobre">
 				<p><b>Como usar este programa:</b><br>1. Insira os valores nos campos<br>2. Aperte no botão de calcular<br>3. O resultado seŕa mostrado na tela</p>
 			</div>
-			<div class="disciplina">
-				<p><b>(Disciplina)</p>
-			</div>
-			<div class="mecanica">
-				<label for="b1">Bimestre I</label>
-				<input name="Bimestre I" placeholder="Exp: 3,0" type="form" id="b1">
-				<button onclick="calculo()">Calcular</button>
-
-				<label for="b2">Bimestre II</label>
-				<input name="Bimestre II" placeholder="Exp: 3,0" type="form" id="b2">
-
-				<label for="b3">Bimestre III</label>
-				<input name="Bimestre III" placeholder="Exp: 3,0" type="form" id="b3">
-
-				<label for="b4">Bimestre IV</label>
-				<input name="Bimestre IV" placeholder="Exp: 3,0" type="form" id="b4">
-				</div>
+			<form> <!-- Especifica o lugar do conteudo no geral do formulario "Classe" -->
+				<fieldset> <!-- Usado para colocar os elementos do formulario/juntar/agrupar-->
+					<div>
+						<label for="bimestre1">Bimestre I</label>
+						<input type="number" name="Bimestre I" id="bimestre1h" placeholder="Exp: 3.0">
+					</div>
+					<div>
+						<label for="bimestre2">Bimestre II</label>
+						<input type="number" name="Bimestre II" id="bimestre2h" placeholder="Exp: 3.0">
+					</div>
+					<div>
+						<label for="bimestre3">Bimestre III</label>
+						<input type="number" name="Bimestre III" id="bimestre3h" placeholder="Exp: 3.0">
+					</div>
+					<div>
+						<label for="bimestre4">Bimestre IV</label>
+						<input type="number" name="Bimestre IV" id="bimestre4h" placeholder="Exp:3.0">
+					</div>
+					<div>
+						<button onclick="calculo()">Calcular</button>
+					</div>
+					<div>
+						<label>Selecione:</label>
+						<input type="checkbox" name="opcao1" value="matematica" checked>Matematica
+						<label>
+							<input type="checkbox" name="opcao2" value="portugues">Portugues
+						</label>
+					</div>
+					<div>
+						</select>
+					</div>
+				</fieldset>
+			</form>
 				<script src="scripts/script.js"></script>
 	</body>
 </html>
