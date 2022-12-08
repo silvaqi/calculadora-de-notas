@@ -5,9 +5,4 @@ function calculo(bimestreum, bimestredois, bimestretreis, bimestrequatro, media)
 	bimestrequatro = Number.parseFloat(bimestre4h.value)
 	media = (bimestreum + bimestredois + bimestretreis + bimestrequatro)
 	alert("Sua média final é: " + media)
-	/* if(media >= 24){
-		alert("Voce passou!")
-	}else{
-		alert("Voce foi reprovado!")
-	} */
 }
