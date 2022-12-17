@@ -1,1 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&family=Ubuntu:wght@300;400;500;700&display=swap');
 
+*{
+	margin: 0;
+	padding: 5px;
+	box-sizing: border-box;
+}
+body{
+	background-color: #C9C9C9;
+}
+
+.topnav{
+	background-color: #756E6E;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.topnav a{
+	float: right;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 18px;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 300;
+	border: 1px solid #000000;
+	border-radius: 6px;
+	margin: 2px;
+}
+
+.topnav h1{
+	float: left;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	text-shadow: 4px 4px #959595;
+}
+
+.topnav a:hover{
+	background-color: #ddd;
+	color: black;
+	transition: 1s;
+}
+
+.topnav a.active{
+	background-color: #4D4141;
+	color: white;
+}
+
+.topnav a.active:hover{
+	background-color: #ddd;
+	color: black;
+}
+
+fieldset{
+	width: 75%;
+	margin: 0 auto;
+}
+
+fieldset legend{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+
+footer p{
+	position: absolute;
+	bottom: 0;
+	left: 74em;
+	float: right;
+	font-family: 'Ubuntu Mono', monospace;
+	font-weight: 400;
+}
+
+fieldset section{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+}
+
+fieldset input{
+	border: 0;
+	border: 2px solid black;
+	border-radius: 4px;
+}
+
+fieldset button{
+	position: fixed;
+	left: 50%;
+	padding: 10px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	border: 0;
+	text-decoration: none;
+	background-color: #303134;
+	border: 1px solid black;
+	border-radius: 3px;
+	color: #e8eaed;
+	cursor: pointer;
+}
+
+fieldset button:hover{
+	color: #303134;
+	background-color: #e8eaed;
+}
